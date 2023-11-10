@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dcdcdc;
+}
+
+header {
+    background-color: #404040;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       
+}
+
+
+.pesquisa-container {
+    display: flex;
+    align-items: center;
+   
+}
+
+.pesquisa-barra {
+    padding: 5px;
+    margin-right: 5px;
+    width: 200px;
+    border-radius: 20px;
+    font-style: italic;
+    border: none;
+   
+}
+
+.lupa-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.button-pesquisa{
+    background-color: transparent;
+    border-radius: 20px;
+   
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    max-height: 50px;
+}
+
+.header-icons {
+    display: flex;
+    gap: 20px;
+   
+}
+
+.header-icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.image-pag{
+
+   
+    max-width: 300px;
+    max-height: 250px;
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: -22px;
+     
+}
+
+.banner{
+    width: 100%;
+    box-shadow: 0 0 10px rgb(0, 0, 0.1)
+ 
+}
+
+.nav-bar{
+   
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 70px;
+    padding: 10px;
+   
+}
+
+a.nav-bar{
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: x-large;
+    color: #404040;
+    margin-right: 50px;
+   
+}
+
+a.nav-bar:hover{
+        color: #fff;
+        background-color: #BDBDBD;
+        padding: 20px;
+        transition: 1s;
+        margin-top: 5px;
+       
+}
+
+.perfume-list{
+    text-align: center;
+    display: inline;
+    max-width: 350px;
+    max-height: 350px;
+   
+}
+
+.container-perfumes{
+    text-align: center;
+
+}
+
+.pre-footer{
+        text-align: center;
+        border: 1px solid red;
+        margin: 20px;
+
+}
+
+.cadastro-pre.pre-footer{
+    border: solid red 1px;
+    padding: 20px;
+   
+}
+
